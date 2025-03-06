@@ -2,6 +2,7 @@
 
 This repository includes the implementation to reproduce the results stated in paper "β-GNN: A Robust Ensemble Approach Against Graph Structure Perturbation". It introduces a very straight-forward approach to tackle edge perturbations towards GNNs, using a weighting factor and an ensemble of GNNs and MLP.
 The data used in this implementation is fetched from [GARNET](https://proceedings.mlr.press/v198/deng22a.html) paper and its [repository](https://github.com/cornell-zhang/GARNET).
+
 ## Recreate the Python Environment
 
 Follow these steps to create and activate a Conda environment with Python 3.12.3 and install dependencies from `requirements.txt`.
