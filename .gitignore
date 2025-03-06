@@ -24,7 +24,7 @@ DeepRobust/.git
 *.swp
 
 # Ignore images
-*.png
+/*.png
 plots/beta_values_plot_CIDDS_random_Combined.png
 
 # Ignore files for other projects
