@@ -10,6 +10,7 @@ Thumbs.db
 node_modules/
 dist/
 venv/
+__pycache__/
 !DeepRobust/
 DeepRobust/deeprobust.egg-info
 DeepRobust/dist/
