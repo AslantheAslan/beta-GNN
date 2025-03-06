@@ -1,0 +1,12 @@
+--dataset cora --attack nettack --ptb_rate 5.0 --lr 0.01 --lr_adj 0.01 --epochs 200 --runs 10 --weight_decay 0.0005
+--dataset cora --perturbed --attack nettack --ptb_rate 5.0 --lr 0.01 --lr_adj 0.01 --epochs 200 --runs 10 --weight_decay 0.0005
+--dataset cora --attack meta --ptb_rate 0.2 --lr 0.01 --lr_adj 0.01 --epochs 200 --runs 10 --weight_decay 0.0005
+--dataset cora --perturbed --attack meta --ptb_rate 0.2 --lr 0.01 --lr_adj 0.01 --epochs 200 --runs 10 --weight_decay 0.0005
+--dataset chameleon --attack nettack --ptb_rate 5.0 --lr 0.01 --lr_adj 0.01 --epochs 200 --runs 10 --weight_decay 0.0
+--dataset chameleon --perturbed --attack nettack --ptb_rate 5.0 --lr 0.01 --lr_adj 0.01 --epochs 200 --runs 10 --weight_decay 0.0
+--dataset chameleon --attack meta --ptb_rate 0.2 --lr 0.01 --lr_adj 0.01 --epochs 200 --runs 10 --weight_decay 0.0
+--dataset chameleon --perturbed --attack meta --ptb_rate 0.2 --lr 0.01 --lr_adj 0.01 --epochs 200 --runs 10 --weight_decay 0.0
+--dataset squirrel --attack nettack --ptb_rate 5.0 --lr 0.01 --lr_adj 0.1 --epochs 200 --runs 10 --weight_decay 0.0
+--dataset squirrel --perturbed --attack nettack --ptb_rate 5.0 --lr 0.1 --lr_adj 0.01 --epochs 200 --runs 10 --weight_decay 0.0
+--dataset squirrel --attack meta --ptb_rate 0.2 --lr 0.01 --lr_adj 0.1 --epochs 200 --runs 10 --weight_decay 0.0
+--dataset squirrel --perturbed --attack meta --ptb_rate 0.2 --lr 0.1 --lr_adj 0.01 --epochs 200 --runs 10 --weight_decay 0.0
